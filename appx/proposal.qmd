@@ -1,5 +1,46 @@
 ---
 title: "Proposal"
+format: 
+  html: 
+   theme: quartz
+   embed-resources: true
+   toc: true
+   toc-depth: 2
+   code-fold: true
+   
 ---
 
-Your proposal go here.
+**Instagram Habits**
+
+By Astou, Kalia, & Cassey
+
+**Description**: 
+We want to research how much time we spend on Instagram and how that affects our daily lives. We want to observe what we consume and how much of it we consume. 
+
+**Questions**:
+How much time are we spending on Instagram? 
+What content are we consuming on Instagram?
+How is it affecting our daily lives? Attention span, productivity, etc. 
+
+**Reason/Inspiration**:
+We wanted to see how social media affects our daily lives. We want to know the exact amount of time we are dedicating to social media (scrolling). We want to see what we are consuming. And once we measure how these habits are impacting our lives, we want to be able to learn how we can improve our wellbeing. Is social media hurting or helping us?
+
+**Communication Plan**:
+We use Instagram and IMessage to communicate (groupchats).
+
+**Roles**:
+Point of Contact: Astou
+Technical Lead: Kalia
+Style Lead: Cassey
+
+**Conflict Resolution**:
+We’ll talk together in our groupchat, try to find a solution, and ask the professor for guidance. Overall, we will remind each other of deadlines and help each other as needed. If it begins to become uneven, then we can talk to each other (and potentially to the professor).
+
+
+**Implementation Plan**:
+PM2 (Effective Teamwork) due 11/6
+PM3 (Case Study) due 11/13
+PM4 (EDA) due 11/20
+PM5 (Progress Presentation) due 11/30
+PM6 (Initial Presentations) due 12/9
+
