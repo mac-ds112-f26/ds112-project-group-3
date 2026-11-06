@@ -15,15 +15,17 @@ format:
 By Astou, Kalia, & Cassey
 
 **Description**: 
-We want to research how much time we spend on Instagram and how that affects our daily lives. We want to observe what we consume and how much of it we consume. 
+We want to research how daily social media usage (hours per day spent scrolling across platforms like Instagram) correlates with self reported stress, anxiety, and mental health across different age groups. We plan to examine public survey databases to analyze these usage patterns and identify trends between time spent online and how it affects one's mental health.
 
 **Questions**:
-How much time are we spending on Instagram? 
-What content are we consuming on Instagram?
-How is it affecting our daily lives? Attention span, productivity, etc. 
+- How does daily social media usage correlate with self reported stress or anxiety? 
+- Is there a specific threshold of daily Screen Time where reported stress levels increase significantly?
+- Do younger demographics of people report higher stress and anxiety levels compared to older age groups when using social media? 
+
 
 **Reason/Inspiration**:
-We wanted to see how social media affects our daily lives. We want to know the exact amount of time we are dedicating to social media (scrolling). We want to see what we are consuming. And once we measure how these habits are impacting our lives, we want to be able to learn how we can improve our wellbeing. Is social media hurting or helping us?
+We wanted to see how social media affects daily life and overall well-being. Because social media platforms like Instagram are used by the majority of young adults, they play a massive role in everyday habits. Thus, we are interested in exploring how different levels of screen time impact different people's mental health. By analyzing public survey data, we want to learn how social media habits are associated with mental disparities and understand whether digital habits are helping or hurting users across different age groups.
+
 
 **Communication Plan**:
 We use Instagram and IMessage to communicate (groupchats).
