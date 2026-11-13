@@ -1,5 +1,20 @@
 ---
-title: "Case Study"
+title: "Social Media Productivity and Stress Levels (Milestone 3 Case Study)- Ctrl Alt Elite"
 ---
 
-Your case study go here.
+```{r}
+#Loading data 
+
+social_media_sleep_stress_productivity_11000
+```
+
+> Instagram, YouTube, Twitter are the main social media platforms that are used.
+
+> The lower the productivity scorem the higherb the stress level. There are some outliers. 
+
+> Higher amouint of screentime elads to less amount of sleep. There are some outliers. 
+
+> Age isn't a big indcator of amount of screentime. We don't see many major trends. 
+
+> Social media hours and exercise hours do not correlate. At least, we didn't see any trends. 
+
