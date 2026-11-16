@@ -3,9 +3,8 @@ title: "Social Media Productivity and Stress Levels (Milestone 3 Case Study)- Ct
 ---
 
 ```{r}
-#Loading data 
-
-social_media_sleep_stress_productivity_11000
+#Loading data
+library(tidyselect)
 ```
 
 > Instagram, YouTube, Twitter are the main social media platforms that are used.
@@ -16,5 +15,14 @@ social_media_sleep_stress_productivity_11000
 
 > Age isn't a big indcator of amount of screentime. We don't see many major trends. 
 
-> Social media hours and exercise hours do not correlate. At least, we didn't see any trends. 
+> Social media hours and exercise hours do not correlate. At least, we didn't see any trends. ]
+
+*Introduction/Context*
+> This dataset is focusing on how screentime affects mental and physical wellbeing. 
+
+*Method*
+
+
+*Visual Used*
+
 
