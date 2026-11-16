@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Title",
+    "section": "",
+    "text": "Your report goes here.\n\n\nCode\n# a test code chunk",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Report</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member1.html",
+    "href": "eda/eda-member1.html",
+    "title": "Member 1 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Member 1 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member2.html",
+    "href": "eda/eda-member2.html",
+    "title": "Member 2 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Member 2 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member3.html",
+    "href": "eda/eda-member3.html",
+    "title": "Member 3 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Member 3 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "appx/proposal.html",
+    "href": "appx/proposal.html",
+    "title": "Appendix A — Proposal",
+    "section": "",
+    "text": "Instagram Habits\nBy Astou, Kalia, & Cassey\nDescription: We want to research how daily social media usage (hours per day spent scrolling across platforms like Instagram) correlates with self reported stress, anxiety, and mental health across different age groups. We plan to examine public survey databases to analyze these usage patterns and identify trends between time spent online and how it affects one’s mental health.\nQuestions: - How does daily social media usage correlate with self reported stress or anxiety? - Is there a specific threshold of daily Screen Time where reported stress levels increase significantly? - Do younger demographics of people report higher stress and anxiety levels compared to older age groups when using social media?\nReason/Inspiration: We wanted to see how social media affects daily life and overall well-being. Because social media platforms like Instagram are used by the majority of young adults, they play a massive role in everyday habits. Thus, we are interested in exploring how different levels of screen time impact different people’s mental health. By analyzing public survey data, we want to learn how social media habits are associated with mental disparities and understand whether digital habits are helping or hurting users across different age groups.\nCommunication Plan: We use Instagram and IMessage to communicate (groupchats).\nRoles: Point of Contact: Astou Technical Lead: Kalia Style Lead: Cassey\nConflict Resolution: We’ll talk together in our groupchat, try to find a solution, and ask the professor for guidance. Overall, we will remind each other of deadlines and help each other as needed. If it begins to become uneven, then we can talk to each other (and potentially to the professor).\nImplementation Plan: PM2 (Effective Teamwork) due 11/6 PM3 (Case Study) due 11/13 PM4 (EDA) due 11/20 PM5 (Progress Presentation) due 11/30 PM6 (Initial Presentations) due 12/9",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Proposal</span>"
+    ]
+  },
+  {
+    "objectID": "appx/case-study.html",
+    "href": "appx/case-study.html",
+    "title": "Appendix B — Social Media Productivity and Stress Levels (Milestone 3 Case Study)- Ctrl Alt Elite",
+    "section": "",
+    "text": "Code\n#Loading data\nlibrary(tidyselect)\n\n\n\nInstagram, YouTube, Twitter are the main social media platforms that are used.\n\n\nThe lower the productivity scorem the higherb the stress level. There are some outliers.\n\n\nHigher amouint of screentime elads to less amount of sleep. There are some outliers.\n\n\nAge isn’t a big indcator of amount of screentime. We don’t see many major trends.\n\n\nSocial media hours and exercise hours do not correlate. At least, we didn’t see any trends. ]\n\nIntroduction/Context &gt; This dataset is focusing on how screentime affects mental and physical wellbeing.\nMethod\nVisual Used",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Social Media Productivity and Stress Levels (Milestone 3 Case Study)- Ctrl Alt Elite</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member1.html",
+    "href": "wa/wa-member1.html",
+    "title": "Appendix C — Member 1 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Member 1 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member2.html",
+    "href": "wa/wa-member2.html",
+    "title": "Appendix D — Member 2 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Member 2 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member3.html",
+    "href": "wa/wa-member3.html",
+    "title": "Appendix E — Member 3 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Member 3 First Name & Last Name Initial</span>"
+    ]
+  }
+]
