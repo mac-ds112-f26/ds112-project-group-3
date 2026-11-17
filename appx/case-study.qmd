@@ -6,19 +6,8 @@ title: "Social Media Productivity and Stress Levels (Milestone 3 Case Study)- Ct
 #Loading data
 library(tidyselect)
 ```
-
-> Instagram, YouTube, Twitter are the main social media platforms that are used.
-
-> The lower the productivity scorem the higherb the stress level. There are some outliers. 
-
-> Higher amouint of screentime elads to less amount of sleep. There are some outliers. 
-
-> Age isn't a big indcator of amount of screentime. We don't see many major trends. 
-
-> Social media hours and exercise hours do not correlate. At least, we didn't see any trends. ]
-
 *Introduction/Context*
-> This dataset is focusing on how screentime affects mental and physical wellbeing. 
+> This dataset starts with an Overview. It explains that it explores the relationship between social media usage, sleep patterns, stress levels, and productivity among individuals. It has 11,000 obervations of these variables. It is looking at how screentime affects mental and physical well-being. 
 
 *Method*
 >This dataset comes from Kaggle. Which includes the information about the usage of social media by people and their habits. It includes variables such as age, screen time, social media hours, sleep hours, exercise time, stress level, and productivity score.
