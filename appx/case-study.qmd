@@ -15,5 +15,5 @@ library(tidyselect)
 >However, the available information does not clearly explain how the data was originally collected, This might make the data difficult for people to judge the reliability and representativeness of the data.
 
 *Visual Used*
-
+> For this data set, the primary visuals used include distribution charts and summary previewsfrom Kaggles data explorer. These include histograms and bar charts for Key variables like participant age, total daily, Screen Time, and average hours spent on social media. These built and visual summaries help us quickly identify the data distributions and help with our exploratory data analysis.
 
