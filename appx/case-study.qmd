@@ -5,6 +5,8 @@ title: "Social Media Productivity and Stress Levels (Milestone 3 Case Study)- Ct
 ```{r}
 #Loading data
 library(tidyselect)
+
+social_media <- read_csv("/Users/kaliathao/Desktop/GitHub/ds112-project-group-3/appx/social_media_sleep_stress_productivity_11000.csv") 
 ```
 *Introduction/Context*
 > This dataset starts with an Overview. It explains that it explores the relationship between social media usage, sleep patterns, stress levels, and productivity among individuals. It has 11,000 obervations of these variables. It is looking at how screentime affects mental and physical well-being. 
