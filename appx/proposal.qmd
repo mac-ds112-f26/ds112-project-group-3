@@ -1,13 +1,5 @@
 ---
 title: "Proposal"
-format: 
-  html: 
-   theme: quartz
-   embed-resources: true
-   toc: true
-   toc-depth: 2
-   code-fold: true
-   
 ---
 
 **Instagram Habits**

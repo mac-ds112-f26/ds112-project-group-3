@@ -1,5 +1,22 @@
 ---
-title: "Member 1 First Name & Last Name Initial"
+title: "Astou Dione"
 ---
 
 Your exploratory data analysis of the team datasets go here.
+```{r}
+library(tidyverse)
+
+df <- read_csv("Teen_Mental_Health_Dataset.csv")
+
+glimpse(df)
+```
+
+
+```{r}
+ggplot(df, aes(x = daily_social_media_hours)) +
+  geom_histogram(bins = 20, fill = "pink", color = "hotpink") +
+  theme_minimal()
+```
+
+**dataset overview:** the data that contains 1200 rows and 13 variables tracking how teens use social media and they were asleep and mental health metrics.
+**Social Media Usage:** daily social media hours are evenly spread across the data ranging from one to eight hours per day.
