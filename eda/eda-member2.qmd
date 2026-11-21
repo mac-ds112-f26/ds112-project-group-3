@@ -1,5 +1,44 @@
 ---
-title: "Member 2 First Name & Last Name Initial"
+title: "Member 2 Cassey Xing"
 ---
 
 Your exploratory data analysis of the team datasets go here.
+```{r}
+library(tidyverse)
+
+social_media <- read_csv("../appx/social_media_sleep_stress_productivity_11000.csv")
+```
+
+```{r}
+head(social_media)
+dim(social_media)
+names(social_media)
+```
+
+```{r}
+## 1: What is the distribution of Social Media Usage.
+ggplot(social_media, aes(x = social_media_hours)) +
+  geom_histogram(binwidth = 1) +
+  labs(
+    title = "Distribution of Daily Social Media Usage",
+    x = "Social Media Usage (Hours)",
+    y = "Count"
+  ) +
+  theme_minimal()
+```
+—   The whole distribution of daily social media usage is maily concentrated from 0-7 hours. Only few of the individuals report more than 7 hours.
+
+```{r}
+## 2: What is the Relationship Between Sleep Duration and Stress Levels?
+ggplot(social_media, aes(x = stress_level, y = sleep_hours)) +
+  geom_boxplot(fill = "blue") +
+  labs(
+    title = "Sleep Duration by Stress Level",
+    x = "Stress Level",
+    y = "Sleep Duration (Hours)"
+  ) +
+  theme_minimal()
+```
+-  The different sleep duration related to similar stress level. Thus, there no specific relationship between the stress level and sleep duration.
+
+
