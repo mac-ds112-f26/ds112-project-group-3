@@ -1,5 +1,103 @@
 ---
-title: "Member 3 First Name & Last Name Initial"
+title: "Kalia T"
 ---
 
 Your exploratory data analysis of the team datasets go here.
+
+```{r}
+# Loading packages
+
+library(tidyselect)
+library(tidyverse)
+```
+
+
+```{r}
+# Getting to know the dataset
+
+dim(Teen_Mental_Health_Dataset)
+
+class(Teen_Mental_Health_Dataset)
+
+head(Teen_Mental_Health_Dataset)
+
+```
+
+```{r}
+
+# Wrangling and exploring the dataset
+
+Teen_Mental_Health_Dataset |> 
+  arrange(desc(daily_social_media_hours)) |> 
+  head(10)
+
+# The two social media platforms are Instagram and Tiktok. Instagram is used more than TikTok when loolkoing at the highest amounts of scial media hours.
+
+# The highest daily social media hour total is 8 hours.
+
+# The ratio of male to female in the top ten is 6:4. 
+
+Teen_Mental_Health_Dataset |> 
+  arrange(desc(daily_social_media_hours)) |> 
+  tail(10)
+
+# At lower end, it is mostly female (female to male ratio is 8:2).
+
+# Sleep hours range more at bottom end (4-9).
+
+# Screen time before bed is slightly higher at top end than bottom end.
+
+# Academic performance and physical activity doesn't really show a difference between higher and lower end. 
+
+# Social interaction level falls on higher ends at top end. 
+
+# There are higher stress level reports at the top end than the bottom end. 6-10 range at top and 1-6 range at end.
+
+# There are higher reports of anxiety level at the top end than the bottom end. 7-10 range at top and 1-5 range at bottom.
+
+# The addiction level is more divided at the top end of social media hours (low and high) and more clustered at bototm end (mid range).
+```
+
+```{r}
+
+ # Looking at relationship between social media hours and gender
+
+ggplot(Teen_Mental_Health_Dataset, aes(y = daily_social_media_hours, fill = gender)) +
+  geom_density(alpha = 0.5) +
+  facet_wrap(~age)
+
+```
+> It seems like male and female have different patterns. There doesn't seems to be a similar trend/relationship with social media hours- only in age of 14 do we see a similar trend. Other than that, the results differ from each other. Hoe interesting. I wonder if it based on what each gender is consuming?
+
+
+```{r}
+
+ # Looking at relationship between social media hours and sleep hours
+
+ggplot(Teen_Mental_Health_Dataset, aes(x = sleep_hours, y = daily_social_media_hours, color = gender)) +
+  geom_point() + 
+  facet_wrap(~age)
+```
+> It seems that the relationship between social media hours and sleep really ranges. There isn't quite a trend for either gender. It's pretty spread out. This is suprising. I thought that with a higher social media hour total, sleep hours would be lower. What is the cause of this? Does social media not impact sleep hours?
+
+
+```{r}
+ # Looking at relationship between socail media hours and stress levels
+
+ggplot(Teen_Mental_Health_Dataset, aes(x = daily_social_media_hours, y = stress_level, color = gender)) +
+  geom_point() +
+  facet_wrap(~age)
+
+```
+> It seems like stress levels vary. There doesn't seem to be a relationship between stress and social mdeia hours. There seems to be a range of results at each social media hour tic mark. I wonder if this is because of what people are consuming? I also wonder if people reported lower or higher levels of stress (it is a subjective measure)?
+
+
+```{r}
+ # Looking at relationship between social media hours and anxiety
+
+ggplot(Teen_Mental_Health_Dataset, aes(x = daily_social_media_hours, y = anxiety_level, color = gender)) +
+  geom_line() +
+  facet_wrap(~age)
+
+```
+> Again, there is a range in results. However, I do notice that there is a middle cluster between 4 and 6 for social media hours fir age 14. I see a drift in this range for age 17.I wonder, what is causing this? However, it does seem like male and female share similar patterns in anxiety levels. Does this indicate that social media has a general/predictable affect on axietty for both genders?  
